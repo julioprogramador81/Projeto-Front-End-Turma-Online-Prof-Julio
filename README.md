@@ -11,6 +11,11 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Projeto desenvolvido por:
+
+- Julio Henrique Codeiro Lobo
+
+- Eduardo Henrique Cordeiro Lobo
 
 # 1 - Sugestão para estrutura de pastas
 Com o objetivo de organizar o projeto estruture o projeto de modo que dentro da pasta "src" existam as pastas dos componentes chamada components e a pasta de paginas chamada pages. Na pasta components devem ser criados os componentes funcionais do projeto e na pasta page deve conter cada aba da pagina da loja drip-store, contendo somente a chamada dos componentes criados. Essa organização facilitará a criação de rotas dentro do arquivo App.js.
