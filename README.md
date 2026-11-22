@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Projeto-Front-End-Turma-Online-Prof-Julio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://github.com/julioprogramador81/Projeto-Front-End-Turma-Online-Prof-Julio/
 
-## Available Scripts
+#1 - Sugestão para estrutura de pastas
 
 In the project directory, you can run:
 
