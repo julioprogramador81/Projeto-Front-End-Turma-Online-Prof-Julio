@@ -62,9 +62,9 @@ light-gray-2 #CCCCCC
 light-gray-3 #F5F5F5
 white #FFFFFF
 ```
-# Projeto - E-commerce de Produtos
+# Projeto - Front-End
 
-## 3 - Layout
+## 3 - Layout 
 
 ### Introdução
 Desenvolvimento do layout geral da aplicação, definindo a estrutura visual, organização dos elementos e identidade visual do projeto.
