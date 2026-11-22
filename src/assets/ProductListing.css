@@ -1,0 +1,54 @@
+.product-listing {
+  
+    display: flex;
+  
+    flex-wrap: wrap;
+    
+    gap: 20px;
+   
+   justify-content: center;
+  
+  }
+     /*parte menu lateral*/
+  
+     
+  .filter-card {
+    width: 308px;
+    height: fit-content;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 4px;
+  }
+  
+  .filter-card h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark-gray-2);
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--light-gray-2);
+  }
+
+
+
+  /*-------------------------podew apaga------------*/
+  
+.filter-card {
+  width: 308px;
+  height: fit-content;
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 4px;
+  background-color: blue;
+}
+
+.filter-card h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dark-gray-2);
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--light-gray-2);
+}
+
+  

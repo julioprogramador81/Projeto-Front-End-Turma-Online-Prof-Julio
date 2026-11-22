@@ -1,0 +1,129 @@
+:root {
+  --dark-gray: #1F1F1F;
+  --dark-gray-2: #474747;
+  --dark-gray-3: #666666;
+
+  --light-gray: #8F8F8F;
+  --light-gray-2: #CCCCCC;
+  --light-gray-3: #F5F5F5;
+
+  --white: #FFFFFF;
+
+  --primary:#C92071;
+  --secondary:#B5B6F2;
+  --tertiary: #991956;
+  --error: #EE4266;
+  --success:#52CA76;
+  --warning:#F6AA1C;
+}
+  
+  
+.buy-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /*border:1px solid #000;*/
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  
+  /* Nome do produto */
+  .buy-box-name {
+    font-size: 32px;
+    color: var(--dark-gray);
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  /* Código de referência */
+  .buy-box-reference {
+    font-size: 12px;
+    color: var(--dark-gray-3);
+  }
+  
+  /* Avaliações */
+  .buy-box-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .buy-box-stars {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: var(--warning);
+   
+   /* color: white;*/
+    font-size: 14px;
+  }
+  
+  /* Ícone de estrela */
+  .buy-box-stars img {
+    width: 14px;
+    height: 14px;
+    filter: brightness(0) invert(1);
+    color:white;
+  
+  }
+  
+  .buy-box-rating-total {
+    font-size: 14px;
+    color: var(--light-gray);
+  }
+  
+  /* Preços */
+  .buy-box-price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 32px;
+    color: var(--dark-gray-2);
+  }
+  
+  .buy-box-price-original {
+    font-size: 16px;
+    color: var(--light-gray-2);
+    text-decoration: line-through;
+  }
+  
+  .buy-box-price-discount {
+    font-size: 32px;
+    color: var(--dark-gray-2);
+  }
+  
+  /* Descrição */
+  .buy-box-description {
+    font-size: 14px;
+    color: var(--dark-gray-2);
+    margin: 0;
+  }
+  
+  /* Opções do produto */
+  .buy-box-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  /* Botão comprar */
+  .buy-box-button {
+    width: 30%;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--warning);
+      color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+  
+  .buy-box-button:hover {
+    opacity: 0.85;
+  }
+  

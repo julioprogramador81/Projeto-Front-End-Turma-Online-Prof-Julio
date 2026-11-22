@@ -1,0 +1,60 @@
+:root {
+  --dark-gray: #1F1F1F;
+  --dark-gray-2: #474747;
+  --dark-gray-3: #666666;
+
+  --light-gray: #8F8F8F;
+  --light-gray-2: #CCCCCC;
+  --light-gray-3: #F5F5F5;
+
+  --white: #FFFFFF;
+
+  --primary:#C92071;
+  --secondary:#B5B6F2;
+  --tertiary: #991956;
+  --error: #EE4266;
+  --success:#52CA76;
+  --warning:#F6AA1C;
+}
+.product-options {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .product-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: transparent;
+  }
+  
+  /* Formato quadrado */
+  .product-option.square {
+    width: 46px;
+    height: 46px;
+    border: 1px solid var(--light-gray-2);
+  }
+  
+  /* Formato circular */
+  .product-option.circle {
+    width: 31px;
+    height: 31px;
+    border: 1px solid var(--light-gray-2);
+    border-radius: 50%;
+  }
+  
+  /* Opções de texto */
+  .product-option.text {
+    font-size: 24px;
+    color: var(--dark-gray-2);
+  }
+  
+  /* Opção selecionada */
+  .product-option.selected {
+    border: 2px solid var(--primary);
+  }
+  
